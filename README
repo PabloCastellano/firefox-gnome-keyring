@@ -19,8 +19,8 @@ default keyring is "mozilla". This is a per-profile setting, so if you
 don't manually change it, all profiles will share the same keyring.
 
 You can backup your passwords easily, separately from the rest of your
-mozilla profile. Your keyrings are stored ~/.gnome2/keyrings - even
-gnome-keyring 3.2 does this, although this may change in the future.
+mozilla profile. Your keyrings are stored in ~/.local/share/keyrings
+Before gnome-keyring 3.5.90 they were stored in ~/.gnome2/keyrings
 
 You can also take advantage of the more fine-tuned keyring management
 features of gnome-keyring, such as:
